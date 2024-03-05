@@ -62,7 +62,6 @@ sudo apt-get install -y doxygen unzip wget
 
 
 # 3. INSTALL THE LIBRARY
-
 wget https://github.com/opencv/opencv/archive/${OPENCV_VERSION}.zip
 unzip ${OPENCV_VERSION}.zip && rm ${OPENCV_VERSION}.zip
 mv opencv-${OPENCV_VERSION} OpenCV
